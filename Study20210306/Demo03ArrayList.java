@@ -29,7 +29,7 @@ public class Demo03ArrayList {
         list.add("迪丽热巴");
         list.add ("古力娜扎");
         list.add("马儿扎哈");
-        System.out.println(list);
+        System.out.println(list);//[赵丽颖, 迪丽热巴, 古力娜扎, 马儿扎哈]
 
         /*
         list.add(100);//错误写法!创建的时候简括好泛型已经说了是字符串,添加进去的元素就必须都是字符串才行

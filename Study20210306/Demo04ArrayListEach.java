@@ -10,6 +10,11 @@ public class Demo04ArrayListEach {
         list.add("马儿扎哈");
 
         //遍历集合
+        /*
+            迪丽热巴
+            古力娜扎
+            马儿扎哈
+         */
         for (int i = 0; i<list.size(); i++){   //快捷创建: list.fori
             System.out.println(list.get(i));
         }

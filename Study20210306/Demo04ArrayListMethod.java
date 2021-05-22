@@ -32,15 +32,15 @@ public class Demo04ArrayListMethod {
 
         //从集合中获取元素:get.索引值从0开始.
         String name = list.get(2);
-        System.out.println("第二号索引位置为: " + name);
+        System.out.println("第二号索引位置为: " + name);//第二号索引位置为: 赵又廷
 
         //从集合中删除元素:remove.索引值从0开始.
         String whoRemove = list.remove(3);
-        System.out.println("被删除的人是:" + whoRemove);
-        System.out.println(list);
+        System.out.println("被删除的人是:" + whoRemove);//被删除的人是:李小璐
+        System.out.println(list);//[柳岩, 高圆圆, 赵又廷, 贾乃亮]
 
         //获取集合的长度尺寸,也就是其中元素的个数
         int size = list.size();
-        System.out.println("集合的长度是: " + size);
+        System.out.println("集合的长度是: " + size);//集合的长度是: 4
     }
 }

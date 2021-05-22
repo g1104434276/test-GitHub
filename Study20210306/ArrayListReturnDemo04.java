@@ -35,7 +35,7 @@ public class ArrayListReturnDemo04 {
         for (int i = 0; i < smallList.size(); i++) {
             System.out.print(smallList.get(i) + " ");
         }
-        System.out.println("偶数个数一共有:" + smallList.size() + "个");
+        System.out.println("偶数个数一共有:" + smallList.size() + "个");//8 24 38 68 78 32 偶数个数一共有:6个
     }
 
     //这个方法接收大集合参数,返回小集合结果

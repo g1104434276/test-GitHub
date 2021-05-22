@@ -32,9 +32,16 @@ public class ArrayListStudentDemo02 {
         list.add(four);
 
         //遍历集合: list.fori
+        /*
+                第0个学生的姓名是:洪七公.  他的年龄是:20
+                第1个学生的姓名是:欧阳锋.  他的年龄是:21
+                第2个学生的姓名是:黄药师.  他的年龄是:22
+                第3个学生的姓名是:段智兴.  他的年龄是:23
+         */
         for (int i = 0; i < list.size(); i++) {
             StudentDemo02 stu = list.get(i);
             System.out.println("第" + i + "个学生的姓名是:" + stu.getName() + ".  他的年龄是:" +stu.getAge() );
+
         }
 
     }

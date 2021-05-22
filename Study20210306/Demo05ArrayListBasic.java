@@ -30,10 +30,10 @@ public class Demo05ArrayListBasic {
         ArrayList <Integer> listB = new ArrayList<Integer>();
         listB.add(100);
         listB.add(200);
-        System.out.println(listB);
+        System.out.println(listB);//[100, 200]
 
         int num = listB.get(1);
-        System.out.println("一号元素是: " + num);
+        System.out.println("一号元素是: " + num);//一号元素是: 200
     }
 
 
